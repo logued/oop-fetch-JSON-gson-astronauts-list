@@ -26,7 +26,7 @@ import java.util.ArrayList;
  * JSON String --> JsonObject --> Java Object
  *
  */
-public class JsonDeserializerCrew implements JsonDeserializer<Spacecraft> {
+public class JsonDeserializerSpacecraft implements JsonDeserializer<Spacecraft> {
 
     public Spacecraft deserialize(JsonElement json,
                                   Type typeOfT,

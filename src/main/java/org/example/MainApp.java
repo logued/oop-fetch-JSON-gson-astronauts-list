@@ -65,7 +65,7 @@ class MainApp {
         // - the deserializer contains the code we write to map the data from Json to a Java object.
         Gson gsonBuilder = new GsonBuilder()
                 .registerTypeAdapter(Spacecraft.class,
-                        new JsonDeserializerCrew())
+                        new JsonDeserializerSpacecraft())
                 .serializeNulls()
                 .create();
 
